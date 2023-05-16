@@ -1,0 +1,192 @@
+/* RUBIK */
+@font-face { /* light. */
+  font-family : Rubik;
+  font-weight : 300;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-Light.ttf);
+}
+
+@font-face { /* light italic. */
+  font-family : Rubik;
+  font-weight : 300;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-LightItalic.ttf);
+}
+
+@font-face { /* regular. */
+  font-family : Rubik;
+  font-weight : 400;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-Regular.ttf);
+}
+
+@font-face { /* regular italic. */
+  font-family : Rubik;
+  font-weight : 400;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-Italic.ttf);
+}
+
+@font-face { /* medium. */
+  font-family : Rubik;
+  font-weight : 500;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-Medium.ttf);
+}
+
+@font-face { /* medium italic. */
+  font-family : Rubik;
+  font-weight : 500;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-MediumItalic.ttf);
+}
+
+@font-face { /* semibold. */
+  font-family : Rubik;
+  font-weight : 600;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-SemiBold.ttf);
+}
+
+@font-face { /* semibold italic. */
+  font-family : Rubik;
+  font-weight : 600;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-SemiBoldItalic.ttf);
+}
+
+@font-face { /* bold. */
+  font-family : Rubik;
+  font-weight : 700;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-Bold.ttf);
+}
+
+@font-face { /* bold italic. */
+  font-family : Rubik;
+  font-weight : 700;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-BoldItalic.ttf);
+}
+
+@font-face { /* extrabold. */
+  font-family : Rubik;
+  font-weight : 800;
+  font-style  : normal;
+  src         : url(/assets/Rubik/static/Rublik-ExtraBold.ttf);
+}
+
+@font-face { /* extrabold italic. */
+  font-family : Rubik;
+  font-weight : 800;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-ExtraBoldItalic.ttf);
+}
+
+@font-face { /* black. */
+  font-family : Rubik;
+  font-weight : 900;
+  font-style  : italic;
+  src         : url(/assets/Rubik/static/Rublik-ExtraBoldItalic.ttf);
+}
+
+
+
+
+
+/* PLAYFAIR DISPLAY */
+@font-face { /* regular. */
+  font-family : PlayfairDisplay;
+  font-weight : 400;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face { /* regular italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 400;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face { /* medium. */
+  font-family : PlayfairDisplay;
+  font-weight : 500;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-Medium.ttf);
+}
+
+@font-face { /* medium italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 500;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf);
+}
+
+@font-face { /* semibold. */
+  font-family : PlayfairDisplay;
+  font-weight : 600;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf);
+}
+
+@font-face { /* semibold italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 600;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf);
+}
+
+@font-face { /* bold. */
+  font-family : PlayfairDisplay;
+  font-weight : 700;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face { /* bold italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 700;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face { /* extrabold. */
+  font-family : PlayfairDisplay;
+  font-weight : 800;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf);
+}
+
+@font-face { /* extrabold italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 800;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf);
+}
+
+@font-face { /* black. */
+  font-family : PlayfairDisplay;
+  font-weight : 900;
+  font-style  : normal;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+}
+
+@font-face { /* black italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 900;
+  font-style  : italic;
+  src         : url(/assets/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf);
+}
+
+
+
+
+
+/* BEBAS NEUE */
+@font-face { /* black italic. */
+  font-family : PlayfairDisplay;
+  font-weight : 400;
+  font-style  : normal;
+  src         : url(/assets/Bebas_Neue/BebasNeue-Regular.ttf);
+}

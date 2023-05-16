@@ -1,0 +1,61 @@
+/* ROOT */
+:root {
+  width  : 100vw;
+  height : 100vh;
+
+  font-family : Rubik;
+  font-size   : 12px;
+  line-height : 24px;
+  font-weight : 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  color      : #0f0f0f;
+  background : transparent;
+}
+
+/* USER SELECT NONE */
+#titlebar {
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
+
+
+
+
+/* TITLEBAR */
+#titlebar {
+  /* variables. */
+  --height       : 30px;
+  --button-width : 35px;
+  --button-count : 4;
+
+  display  : flex;
+  position : relative;
+  width    : 100vw;
+  height   : var(--height);
+
+  flex-direction: row;
+
+  font-family : Rubik;
+  font-weight : 300;
+  font-size   : 14px;
+}
+
+#titlebar-drag-region {
+  display : inline-block;
+  width   : calc(100vw - var(--button-width) * var(--button-count));
+  height  : 100%;
+}
+
+.TitlebarButton {
+  display: inline-block;
+  width  : var(--button-width);
+  height : 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chalk.</title>
+
+    <link rel="stylesheet" href="/src/css/reset.css"  />
+    <link rel="stylesheet" href="/src/css/fonts.css"  />
+    <link rel="stylesheet" href="/src/css/global.css" />
+
+    <script type="module" src="/src/main.ts" defer></script>
+
+  </head>
+  <body>
+    
+    <!-- TITLEBAR -->
+    <div id="titlebar">
+      <div class="TitlebarButton" id="titlebar-button-pin"      tooltip="tooltip_pin"></div>
+      <div data-tauri-drag-region id="titlebar-drag-region">
+        <span data-tauri-drag-region id="titlebar-title-text" text="app_name">chalk.</span>
+      </div>
+      <div class="TitlebarButton" id="titlebar-button-minimize" tooltip="tooltip_minimize"></div>
+      <div class="TitlebarButton" id="titlebar-button-maximize" tooltip="tooltip_maximize"></div>
+      <div class="TitlebarButton" id="titlebar-button-close"    tooltip="tooltip_close"></div>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+
+      <!-- SIDEBAR -->
+      <div id="sidebar"></div>
+
+      <!-- SPILL -->
+      <div></div>
+
+    </main>
+
+  </body>
+</html>
